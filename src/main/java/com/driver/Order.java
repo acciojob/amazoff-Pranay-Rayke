@@ -16,8 +16,11 @@ public class Order {
     }
 
     public String getId() {
+
         return id;
     }
 
-    public int getDeliveryTime() {return deliveryTime;}
+    public int getDeliveryTime() {
+        return deliveryTime;
+    }
 }
